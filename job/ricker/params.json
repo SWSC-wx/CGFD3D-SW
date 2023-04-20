@@ -1,0 +1,129 @@
+{
+  "NX"        : 560,
+  "NY"        : 640,
+  "NZ"        : 80,
+  "DH"        : 500.0,
+  "Depth(km)"  : 40,
+
+  "centerX" : 279,
+  "centerY" : 279,
+
+  "PX"        : 20,
+  "PY"        : 20,
+  "PZ"        : 1,
+
+  "PMLresX"   : 0,
+  "PMLresY"   : 0,
+  "PMLresZ"   : 0,
+
+  "useMedium" : 0,
+  "ShenModel" : 0,
+  "Crust_1Model": 0,
+  "LayeredModel": 0,
+  "LayeredFileName":"./MediumDir/LayeredModel",
+
+  "useTerrain": 0,
+  "useMultiSource" : 0,
+  "imedium"   : 0,
+  "gauss_height" : 0.0e3,
+  "gauss_width"  : 1.0e3,
+  "IN_TOPO"      : "" ,
+  "IN_INTER"     : "",
+  "IN_VELO"      : "",
+  "NUM_INTER"    : 7, 
+
+  "TMAX"      : 15.0008,
+  "DT"        : 1.0e-2,
+  "TSKP0"     : 1000,
+  "TSKP"      : 20,
+  "WRITE_STEP"  : 1,
+
+  "isource"   : 1,
+  "rickerfc"  : 0.02,
+  "IN_SOURCE" : "" ,
+
+  "Qsf0"      : 1.0,
+  "IN_REC"    : "" ,
+
+  "SAVE_CKPT"  : 1,
+  "SAVE_CKPT_START_STEP"  : 0,
+  "SAVE_CKPT_PER_STEP"    : 80000,
+  "LOAD_CKPT"     : 0,
+  "CUR_CKPT_IDX"  : 1,
+  "NUM_CKPT_DIR"  : 2,
+
+  "SAMP" : 0,
+  "SAMPLE_SIZE" : 2,
+
+  "Gather" : 0,
+  "Gather_SIZE_X" : 5,
+  "Gather_SIZE_Y" : 5,
+
+  "NBGX" : 1,
+  "NBGY" : 1,
+  "NBGZ" : 1,
+
+  "NEDX" : -1,
+  "NEDY" : -1,
+  "NEDZ" : 1,
+
+  "NSKPX" : 1,
+  "NSKPY" : 1,
+  "NSKPZ" : 1,
+
+
+  "SAVE_FULL_IMG" : 0,
+  "SAVE_FULL_IMG_START_STEP" : 100,
+  "SAVE_FULL_IMG_PER_STEP" : 2000,
+ 
+  "OUT_DIR"   : "output",
+  "OUT"       : "output",
+
+	"centerLatitude" : 37.44805,
+	"centerLongitude": 37.226,
+	
+	"sliceX" : -1, 
+	"sliceY" : -1,
+	"sliceZ" : 79,
+	"sliceFreeSurf" : 1,
+
+	"nPML" : 12,
+	
+    "out"			: "./output",
+	
+	"TerrainTif"	: "./terrainTif",
+	"TerrainDir"	: "./TerrainDir",
+	"SRTM90"		: 1,
+	
+	"lonStart"		: 35,
+	"latStart"		: 35,
+	"blockX"		: 1,
+	"blockY"		: 1,
+
+
+
+	"MLonStart"		: 99,
+	"MLatStart"		: 28,
+	"MLonEnd"		: 110,
+	"MLatEnd"		: 37,
+	"MLonStep"		: 0.5,
+	"MLatStep"		: 0.5,
+
+	"MVeticalStep"	: 500,
+
+	"MediumDir"		: "./MediumDir",
+	
+	"CrustDir"		: "./crust1.0",
+	"CrustLonStep"  : 1.0,
+	"CrustLatStep"  : 1.0,
+
+
+	"sourceFile" : "", 
+
+
+
+	"FAST_AXIS"		: "Z"
+
+}
+
+
