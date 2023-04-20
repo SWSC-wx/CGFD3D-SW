@@ -1,0 +1,5 @@
+###CGFD3D
+- Considering that in the domain of earthquake simulation, more accurate models and more efficient computing are equally important, this work employed a novel earthquake algorithm based on the CGFDM and designed a series of dedicated optimizations based on a New-generation Sunway supercomputer. 
+The CGFDM inherits the traditional FDM properties of high accuracy and high efficiency. 
+Moreover, it meshes grids flexibly according to the geometry of the calculation area. 
+Therefore, the CGFDM can resolve the complex topographic effects accurately due to the traction mirror method for free-surface condition.
